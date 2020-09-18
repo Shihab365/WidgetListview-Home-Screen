@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="3dp"
+    android:background="#ffffff"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/list_nameID"
+        android:paddingLeft="30dp"
+        android:gravity="center|left"
+        android:layout_weight="1"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Shihab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/list_cgpaID"
+        android:paddingLeft="20dp"
+        android:gravity="center|left"
+        android:layout_weight="1"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="3.78"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
